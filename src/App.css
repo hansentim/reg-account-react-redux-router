@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+.wrapper {
+  margin: 5rem auto;
+  max-width: 375px;
+  height: 798px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.reg-form,
+.account-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.reg-form h2,
+.account-form h2 {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  background: #ededed;
+  max-width: 375px;
+  height: 95px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.welcome h2 {
+  padding-top: 2rem;
+}
+
+.label {
+  width: 100%;
+  margin-left: 2rem;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 0.2rem;
+}
+
+input {
+  width: 343px;
+  height: 46px;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font-size: 18px;
+  padding-left: 0.5rem;
+}
+
+.account-form > input {
+  border: none;
+  text-align: left;
+}
+
+.btn {
+  width: 343px;
+  height: 72px;
+  margin-bottom: 5rem;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  background: white;
+  cursor: pointer;
+}
